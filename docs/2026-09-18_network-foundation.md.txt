@@ -1,0 +1,21 @@
+# Network Foundation
+
+## What was Configured
+Created a Windows Server 2019 virtual machine (IMG-SRV-01) with two network adapters:\
+one connected to a private internal network (LABNET) reserved for imaging traffic, \
+and one NAT adapter for reaching the internet. Because no gateway exists on LABNET, \
+traffic cannot route between LABNET and NAT ensuring no external network leakage. 
+
+## Verification
+[IP Config Output- LABNET](../screenshots/2026-09-18_ipconfig-LABNET.png)
+
+The LABNET adapter shows static IP with no gateway.
+
+[IP Config Output- NAT](../screenshots/2026-09-18_ipconfig-NAT.png)
+
+The NAT adapter shows assignment of a default gateway and DHCP enabled.
+
+[NAT Ping Confirmation](../screenshots/2026-09-18_ping-confirmation.png)
+
+The results of 'ping 8.8.8.8' show 0 lost packets, confirming outbound internet\
+connectivity via NAT's gateway.
