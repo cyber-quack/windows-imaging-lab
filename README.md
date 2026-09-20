@@ -5,7 +5,7 @@ deployment workflows.
 
 ## Objectives
 
-1. - [ ] Build a Windows Server 2019 VM acting as domain controller, DHCP 
+1. - [x] Build a Windows Server 2019 VM acting as domain controller, DHCP 
    server, and Windows Deployment Services (WDS) host on an isolated 
    internal network.
 
