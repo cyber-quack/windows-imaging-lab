@@ -9,7 +9,7 @@ deployment workflows.
    server, and Windows Deployment Services (WDS) host on an isolated 
    internal network.
 
-2. - [ ] Configure a Windows 10 reference VM as a corporate workstation 
+2. - [x] Configure a Windows 11 reference VM as a corporate workstation 
    baseline, generalize it with Sysprep, and capture it to a WIM file.
 
 3. - [ ] Import the captured image into WDS and deploy it to a fresh target 
