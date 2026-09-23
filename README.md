@@ -12,7 +12,7 @@ deployment workflows.
 2. - [x] Configure a Windows 11 reference VM as a corporate workstation 
    baseline, generalize it with Sysprep, and capture it to a WIM file.
 
-3. - [ ] Import the captured image into WDS and deploy it to a fresh target 
+3. - [x] Import the captured image into WDS and deploy it to a fresh target 
    VM via PXE network boot—no installation media required.
 
 4. - [ ] Verify deployed images restore all applications, settings, and 
