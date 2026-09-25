@@ -15,5 +15,6 @@ deployment workflows.
 3. - [x] Import the captured image into WDS and deploy it to a fresh target 
    VM via PXE network boot—no installation media required.
 
-4. - [ ] Verify deployed images restore all applications, settings, and 
-   machine identity regeneration on dissimilar "hardware."
+4. - [] Achieve zero-touch deployment of the gold image to department-specific 
+	workstations using MDT task sequences, with access rights enforced through Group 
+	Policy.
