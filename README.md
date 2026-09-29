@@ -3,7 +3,7 @@
 Home-lab environment for practicing enterprise Windows imaging and 
 deployment workflows.
 
-## Objectives
+## Main Objectives
 
 1. - [x] Build a Windows Server 2019 VM acting as domain controller, DHCP 
    server, and Windows Deployment Services (WDS) host on an isolated 
@@ -15,6 +15,8 @@ deployment workflows.
 3. - [x] Import the captured image into WDS and deploy it to a fresh target 
    VM via PXE network boot—no installation media required.
 
-4. - [] Achieve zero-touch deployment of the gold image to department-specific 
-	workstations using MDT task sequences, with access rights enforced through Group 
-	Policy.
+
+## Bonus Objective
+4. - [ ] Achieve zero-touch deployment of the gold image to department-specific 
+	workstations using Configuration Manager task sequences, with access rights enforced
+	through Group Policy.
