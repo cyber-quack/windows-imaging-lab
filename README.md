@@ -16,7 +16,7 @@ deployment workflows.
    VM via PXE network boot—no installation media required.
 
 
-## Bonus Objective
-4. - [ ] Achieve zero-touch deployment of the gold image to department-specific 
+## Bonus Objectives
+4. - [x] Achieve zero-touch deployment of the gold image to department-specific 
 	workstations using Configuration Manager task sequences, with access rights enforced
 	through Group Policy.
